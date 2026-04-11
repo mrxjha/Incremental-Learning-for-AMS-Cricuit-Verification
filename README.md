@@ -1,25 +1,23 @@
-# Incremental Learning for Analog Mixed Signal Cricuit Verification
+# Incremental Learning for Analog Mixed Signal Circuit Verification
 
-Description:
-Developed an automated verification system for Analog Mixed Signal (AMS) circuits using Incremental Learning to reduce retraining time and improve efficiency.
+# Description:
+Developed an automated verification framework for Analog Mixed Signal (AMS) circuits using Incremental Learning techniques to eliminate repeated full-model retraining, thereby improving computational efficiency and scalability.
 
-Key Contributions:
+# Key Contributions:
+Designed and implemented an incremental machine learning pipeline that updates models dynamically with new data instead of retraining from scratch
+Applied advanced regression models including Hoeffding Tree, Aggregated Mondrian Tree, and Extra Trees Regressor for continuous learning on streaming data
+Performed waveform analysis and anomaly detection on large-scale AMS datasets to identify deviations and ensure circuit reliability
+Automated traditionally manual verification processes, significantly reducing analysis time and human effort
 
-Designed an incremental machine learning pipeline to update models without retraining from scratch
-Implemented Hoeffding Tree, Mondrian Tree, and Extra Trees Regressors for continuous learning
-Performed waveform analysis and anomaly detection on large-scale AMS datasets
-Reduced manual verification effort by automating data analysis
+# Tech Stack:
+Python, Machine Learning, LSTM, MLP, Visual Studio Code
 
-Tech Stack:
-Python, Machine Learning, LSTM, MLP, VS Code
+# Dataset:
+Processed 150 CSV files, each with a dimension of 15000 × 34
+Covered diverse process corners, voltage levels (3V–3.6V), and temperature variations (5°C–125°C)
+Utilized structured input features (vinp, pd, xpd, vdda) to predict output waveform (vinn)
 
-Dataset:
-
-150 CSV files (15000 × 34 each)
-Multiple process corners, voltage levels, and temperature variations
-
-Results:
-
-Improved R² score by up to 10.53%
-Increased SNR by up to 26.40%
-Achieved faster training with incremental updates
+# Results:
+Achieved improvement in R² score by up to 10.53%, indicating better prediction accuracy
+Increased Signal-to-Noise Ratio (SNR) by up to 26.40%, enhancing output signal quality
+Enabled faster and more efficient model training through incremental updates compared to traditional retraining approaches
