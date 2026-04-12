@@ -16,8 +16,13 @@ Python, Machine Learning, LSTM, MLP, Visual Studio Code
 Processed 150 CSV files, each with a dimension of 15000 × 34
 Covered diverse process corners, voltage levels (3V–3.6V), and temperature variations (5°C–125°C)
 Utilized structured input features (vinp, pd, xpd, vdda) to predict output waveform (vinn)
+<img width="1344" height="747" alt="image" src="https://github.com/user-attachments/assets/0171f649-4244-4325-899b-70647a5f9887" />
+
 
 # Results:
+
+<img width="1218" height="439" alt="image" src="https://github.com/user-attachments/assets/98ae3f89-0799-4e78-af98-9cb1d731a0d5" />
+
 Achieved improvement in R² score by up to 10.53%, indicating better prediction accuracy
 Increased Signal-to-Noise Ratio (SNR) by up to 26.40%, enhancing output signal quality
 Enabled faster and more efficient model training through incremental updates compared to traditional retraining approaches
@@ -26,3 +31,8 @@ Enabled faster and more efficient model training through incremental updates com
 <img width="1800" height="900" alt="slownfastp_3 6V_45_plot" src="https://github.com/user-attachments/assets/3a25ed3d-972d-4248-bf1e-63fb6d0c182b" />
 
 <img width="1800" height="900" alt="fastnfastp_3 6V_45_plot" src="https://github.com/user-attachments/assets/7d680955-a6cc-46ae-b0c1-d66e465e5fec" />
+
+<img width="1800" height="900" alt="typical_3 3V_45_plot" src="https://github.com/user-attachments/assets/d81b03cc-981f-403b-b7d7-5c23d650a957" />
+
+# Metrics:
+
