@@ -21,3 +21,8 @@ Utilized structured input features (vinp, pd, xpd, vdda) to predict output wavef
 Achieved improvement in R² score by up to 10.53%, indicating better prediction accuracy
 Increased Signal-to-Noise Ratio (SNR) by up to 26.40%, enhancing output signal quality
 Enabled faster and more efficient model training through incremental updates compared to traditional retraining approaches
+
+# Plots:
+<img width="1800" height="900" alt="slownfastp_3 6V_45_plot" src="https://github.com/user-attachments/assets/3a25ed3d-972d-4248-bf1e-63fb6d0c182b" />
+
+<img width="1800" height="900" alt="fastnfastp_3 6V_45_plot" src="https://github.com/user-attachments/assets/7d680955-a6cc-46ae-b0c1-d66e465e5fec" />
