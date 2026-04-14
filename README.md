@@ -18,7 +18,6 @@ Covered diverse process corners, voltage levels (3V–3.6V), and temperature var
 Utilized structured input features (vinp, pd, xpd, vdda) to predict output waveform (vinn)
 <img width="1344" height="747" alt="image" src="https://github.com/user-attachments/assets/0171f649-4244-4325-899b-70647a5f9887" />
 
-
 # Results:
 
 <img width="1218" height="439" alt="image" src="https://github.com/user-attachments/assets/98ae3f89-0799-4e78-af98-9cb1d731a0d5" />
